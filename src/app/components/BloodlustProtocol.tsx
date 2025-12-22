@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Brain, Code, Layers, Lock } from 'lucide-react';
-import logo from 'figma:asset/6e6bee171e3b0a0badaf7d4957e6faebcd2819b8.png';
+const logo = '/logo.png';
 
 const osPillars = [
   { icon: Brain, label: 'PHILOSOPHY', value: 'WitheredRaxia', desc: 'Existential realism. Creation > consumption.' },

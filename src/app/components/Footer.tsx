@@ -1,6 +1,6 @@
 import { Github, Mail } from 'lucide-react';
 import { motion } from 'motion/react';
-import logo from 'figma:asset/6e6bee171e3b0a0badaf7d4957e6faebcd2819b8.png';
+const logo = '/logo.png';
 
 export function Footer() {
   return (
@@ -11,11 +11,14 @@ export function Footer() {
           {/* Column 1 */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Metasyndikate" className="w-12 h-12" />
+              <img src={logo} alt="Metasyndikate Studios Logo" className="w-12 h-12" loading="lazy" decoding="async" />
               <h3 className="text-primary">METASYNDIKATE™</h3>
             </div>
             <p className="text-sm text-foreground/70 font-mono mb-3">
               Non-profit ideology-driven creative syndicate. Operating system for ideas.
+            </p>
+            <p className="text-xs text-accent font-mono mb-3">
+              We only hire 1 person per year. If you’re the one, you’ll know.
             </p>
             <p className="text-xs text-muted-foreground font-mono">
               © {new Date().getFullYear()} Metasyndikate Studios®<br/>
