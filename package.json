@@ -1,11 +1,13 @@
 {
-  "name": "@figma/my-make-file",
+  "name": "syndikx",
   "private": true,
+  "copyright": "All rights reserved to MetaSyndikate Pvt. Ltd.",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "ai-gateway-demo": "tsx ai-gateway-demo.ts"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
